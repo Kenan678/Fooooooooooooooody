@@ -23,7 +23,7 @@ namespace Foody.BusinessLayer.Concrete
         }
 
         public List<Category> GetAll()
-        {
+        {g
            return _categoryService.GetAll();
         }
 
