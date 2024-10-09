@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Foody.BusinessLayer.Concrete
 {
-    public class CategoryManager : ICategoryService
+    public class CategoryManager : ICategoryService:::
     {
         private readonly ICategoryService _categoryService;
 
@@ -23,7 +23,7 @@ namespace Foody.BusinessLayer.Concrete
         }
 
         public List<Category> GetAll()
-        {g
+        {
            return _categoryService.GetAll();
         }
 
