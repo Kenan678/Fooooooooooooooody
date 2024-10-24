@@ -8,9 +8,9 @@
 @await Component.InvokeAsync("_HeadLayoutComponentPartial")
 <body>
 	<div class="wrapper">
-		<!-- Sidebar -->
+		
 		@await Component.InvokeAsync("_SidebarLayoutComponentPartial")
-		<!-- End Sidebar -->
+	
 		@await Component.InvokeAsync("_MainPanelLayoutComponentPartial")
 
 		@RenderBody()
@@ -18,12 +18,12 @@
 
 	</div>
 
-	<!-- Custom template | don't include it in your project! -->
-	@await Component.InvokeAsync("_CustomTemplateLayoutComponentPartial")
-	<!-- End Custom template -->
-	</div>
-	<!--   Core JS Files   -->
-	@await Component.InvokeAsync("_ScriptsLayoutComponentPartial")
 
+	@await Component.InvokeAsync("_CustomTemplateLayoutComponentPartial")
+
+	</div>
+	
+	@await Component.InvokeAsync("_ScriptsLayoutComponentPartial")
+	S
 </body>
 </html>
